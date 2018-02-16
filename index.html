@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alpino</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="script.js" type="text/javascript"></script>
+    </head>
+    <body onload="code();">
+        <div class="container">
+            <div class="cube">
+                <div id="side-1" class="side front">side 1</div>
+                <div id="side-2" class="side back">side 2</div>
+                <div id="side-3" class="side right">side 3</div>
+                <div id="side-4" class="side left">side 4</div>
+                <div id="side-5" class="side top">side 5</div>
+                <div id="side-6" class="side bottom">side 6</div>
+            </div>
+        </div>
+        <div id="model-box" style="display:none">
+            <div id="input-box" class="animate">
+                <button class="btn" onclick="sideFunction(1)" id="sidebtn-1">side 1</button>
+                <button class="btn" onclick="sideFunction(2)" id="sidebtn-2">side 2</button>
+                <button class="btn" onclick="sideFunction(3)" id="sidebtn-3">side 3</button>
+                <button class="btn" onclick="sideFunction(4)" id="sidebtn-4">side 4</button>
+                <button class="btn" onclick="sideFunction(5)" id="sidebtn-5">side 5</button>
+                <button class="btn" onclick="sideFunction(6)" id="sidebtn-6">side 6</button>
+            </div>
+        </div>
+        <div id="model-box-2" style="display:none">
+            <div id="input-box-2" class="animate">
+                <button class="btn-2" id="link-3" onclick="uploadBtn()">Upload</button>
+                <input type="text" style="display:none" placeholder="Paste Embed Link and Enter" class="btn-22" id='url-input-1' onChange="AddSideEmbedURL()">
+                <button class="btn-2" id="link-1" onclick="embedBtn()">Embed</button>
+                <input type="text" style="display:none" placeholder="Paste Direct Link and Enter" class="btn-22" id='url-input-2' onChange="AddSideURL()">
+                <button class="btn-2" id="link-2" onclick="directBtn()">Direct</button>
+                <input type="file" id="browse" name="fileupload" style="display:none" onchange="uploadSide()">
+                <button class="btn-2" id="link-4" onclick="clearSide()">Remove</button>
+            </div>
+        </div>
+        <div id="popup-box" class="popup" style="display:none">
+            <div id="ins-text" class="animate popupIn">
+                <div id="header">
+                    <h3>Controls</h3>
+                </div>
+                <pre class="text">
+                       Space :  Help/Controls Menu
+                         I   :  Insert Video Options
+                         +   :  Increase Size
+                         -   :  Decrease Size
+                 Arrow Keys  :  Rotate Cube in 3D
+
+                (click anywhere or press space to hide)
+                </pre>
+            </div>
+        </div>
+        <script>
+            var modal = document.getElementById('model-box');
+            var modal2 = document.getElementById('model-box-2');
+            var popupBox = document.getElementById('popup-box');
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+                else if (event.target == modal2) {
+                    modal2.style.display = "none";
+                }
+                else if (event.target != popupBox){
+                    popupBox.style.display = "none";
+                }
+            }
+        </script>
+    <body/>
+</html>
