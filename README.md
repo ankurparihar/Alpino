@@ -4,8 +4,8 @@
 
 ### Created By:
 [Me](https://github.com/ankurparihar)<br>
-[Sagar Dhurwe](https://www.facebook.com/sagar.dhurwe.1)<br>
-[Tarun Kumar](https://www.facebook.com/tk565134)<br>
+[Sagar Dhurwe](https://github.com/sagardhurwe)<br>
+[Tarun Kumar](https://github.com/tk565134)<br>
 
 ### About:
 - This is 3-D media player.<br>
