@@ -3,7 +3,7 @@
 > A 3-D web media player made for Microsoft Code.Fun.Do<br>
 
 ### Created By:
-[Me](https://github.com/ankurparihar)<br>
+[Ankur Parihar](https://github.com/ankurparihar)<br>
 [Sagar Dhurwe](https://github.com/sagardhurwe)<br>
 [Tarun Kumar](https://github.com/tk565134)<br>
 
