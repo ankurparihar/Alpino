@@ -404,6 +404,7 @@ const alpino__data = {
 		audio.innerHTML = `This browser doesn't support ${type} file type`
 		audio.setAttribute('src', url)
 		audio.setAttribute('controls', 'true')
+		audio.setAttribute('style', 'width:100%')
 		cubeSide.innerHTML = ''
 		cubeSide.appendChild(audio)
 	},
