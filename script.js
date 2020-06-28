@@ -323,6 +323,7 @@ const alpino__data = {
 			demoSrcSide.classList.add('demo_src_side--close')
 		})
 		demo_cont.querySelector('#reset_btn').addEventListener('click', alpino__data.reset)
+		document.getElementById('demo_help-yt').innerHTML = `<iframe width="560px" height="315px" src="https://www.youtube.com/embed/1hnz1ZxAG-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 	},
 	cube: undefined,
 	isCubeActive: undefined,
