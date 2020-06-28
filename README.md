@@ -1,6 +1,8 @@
-## [Alpino](https://alpino.azurewebsites.net/index.html)<br/>
+## Alpino<br/>
 
 > A 3-D web media player made for Microsoft Code.Fun.Do<br>
+
+[Live Demo](https://ankurparihar.github.io/projects/Alpino)
 
 ### Created By:
 [Ankur Parihar](https://github.com/ankurparihar)<br>
@@ -24,4 +26,4 @@
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=1hnz1ZxAG-c
 " target="_blank"><img src="http://img.youtube.com/vi/1hnz1ZxAG-c/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a><br>
+alt="IMAGE ALT TEXT HERE" width="240" height="180"/></a><br>
