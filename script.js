@@ -283,7 +283,7 @@ const alpino__data = {
 			clickEvent = new MouseEvent('click', { bubbles: true, cancelable: true })
 			demoSrcSide.querySelector('.btn-drct').dispatchEvent(clickEvent)
 			input = demoSrcSide.querySelector('input[type="text"]')
-			input.value = `./party_content/image.jpg`
+			input.value = `./party_content/image.png`
 			inputEvent = new Event('input', { bubbles: true, cancelable: true })
 			changeEvent = new Event('change', { bubbles: true, cancelable: true })
 			input.dispatchEvent(inputEvent)
