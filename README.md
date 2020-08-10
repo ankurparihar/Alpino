@@ -27,3 +27,10 @@
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=1hnz1ZxAG-c
 " target="_blank"><img src="http://img.youtube.com/vi/1hnz1ZxAG-c/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180"/></a><br>
+
+<hr>
+
+### PageSpeed score powered by [readme-pagespeed-insights](https://github.com/ankurparihar/readme-pagespeed-insights)
+<p align="center">
+	<img align="center" src="./pagespeed.svg" width="600px">
+</p>
